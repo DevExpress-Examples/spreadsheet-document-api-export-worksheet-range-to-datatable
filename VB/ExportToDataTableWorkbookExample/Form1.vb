@@ -21,7 +21,7 @@ Namespace ExportToDataTableWorkbookExample
             Dim wbook As New Workbook()
             wbook.LoadDocument("TopTradingPartners.xlsx")
             Dim worksheet As Worksheet = wbook.Worksheets(0)
-            Dim range As Range = worksheet.Tables(0).Range
+            Dim range As CellRange = worksheet.Tables(0).Range
 
             Dim dataTable As DataTable = worksheet.CreateDataTable(range, True)
             ' Change the data type of the "As Of" column to text.

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -7,9 +7,10 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{4C18218E-CE50-4E63-8A19-BE6C8B06FBC2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>ExportToDataTableWorkbookExample</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
     <OptionExplicit>On</OptionExplicit>
@@ -27,6 +28,7 @@
     <DefineTrace>true</DefineTrace>
     <ErrorReport>prompt</ErrorReport>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -36,6 +38,7 @@
     <DefineDebug>false</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -50,52 +53,52 @@
     <Import Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.BonusSkins.v16.2">
+    <Reference Include="DevExpress.BonusSkins.v19.2">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Charts.v16.2.Core, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Charts.v19.2.Core, Version=19.2.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Data.v16.2">
+    <Reference Include="DevExpress.Data.v19.2">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Docs.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Docs.v19.2, Version=19.2.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Office.v16.2.Core, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Office.v19.2.Core, Version=19.2.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Spreadsheet.v16.2.Core, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Spreadsheet.v19.2.Core, Version=19.2.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Utils.v16.2">
+    <Reference Include="DevExpress.Utils.v19.2">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Sparkline.v16.2.Core">
+    <Reference Include="DevExpress.Sparkline.v19.2.Core">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v16.2">
+    <Reference Include="DevExpress.XtraEditors.v19.2">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraBars.v16.2">
+    <Reference Include="DevExpress.XtraBars.v19.2">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraGrid.v16.2">
+    <Reference Include="DevExpress.XtraGrid.v19.2">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraLayout.v16.2">
+    <Reference Include="DevExpress.XtraLayout.v19.2">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraPrinting.v16.2">
+    <Reference Include="DevExpress.XtraPrinting.v19.2">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v16.2.Core">
+    <Reference Include="DevExpress.RichEdit.v19.2.Core">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v16.2.Export">
+    <Reference Include="DevExpress.RichEdit.v19.2.Export">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Printing.v16.2.Core">
+    <Reference Include="DevExpress.Printing.v19.2.Core">
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

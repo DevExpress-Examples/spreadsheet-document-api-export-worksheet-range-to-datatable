@@ -17,7 +17,7 @@ namespace ExportToDataTableWorkbookExample {
             Workbook wbook = new Workbook();
             wbook.LoadDocument("TopTradingPartners.xlsx");
             Worksheet worksheet = wbook.Worksheets[0];
-            Range range = worksheet.Tables[0].Range;
+            CellRange range = worksheet.Tables[0].Range;
 
             DataTable dataTable = worksheet.CreateDataTable(range, true);
             // Change the data type of the "As Of" column to text.
