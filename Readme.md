@@ -10,7 +10,7 @@
 * [MyConverter.cs](./CS/ExportToDataTableWorkbookExample/MyConverter.cs) (VB: [MyConverter.vb](./VB/ExportToDataTableWorkbookExample/MyConverter.vb))
 * [Program.cs](./CS/ExportToDataTableWorkbookExample/Program.cs) (VB: [Program.vb](./VB/ExportToDataTableWorkbookExample/Program.vb))
 <!-- default file list end -->
-# Export a Worksheet Range to a DataTable
+# Spreadsheet Document API - Export a Worksheet Range to a DataTable
 
 
 <p>This example illustrates the <a href="http://help.devexpress.com/#DocumentServer/CustomDocument118161">How to: Export a Worksheet Range to a DataTable</a> topic.</p>
