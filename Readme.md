@@ -3,18 +3,22 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T482311)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# Spreadsheet Document API - Export a Worksheet Range to a DataTable
+
+This example illustrates how to use the [WorksheetExtensions](https://docs.devexpress.com/OfficeFileAPI/DevExpress.Spreadsheet.WorksheetExtensions) class to export a cell range to a DataTable.
+
+>**Warning**:
+>
+> The `WorksheetExtensions` class is defined in `DevExpress.Docs` library. Add this assembly to your project to use worksheet extensions. You need a license for the [DevExpress Office File API Subscription](https://www.devexpress.com/products/net/office-file-api/) or [DevExpress Universal Subscription](https://www.devexpress.com/subscriptions/universal.xml) to use this assembly in production code.
+
+## Files to Review
 
 * [Form1.cs](./CS/ExportToDataTableWorkbookExample/Form1.cs) (VB: [Form1.vb](./VB/ExportToDataTableWorkbookExample/Form1.vb))
 * [MyConverter.cs](./CS/ExportToDataTableWorkbookExample/MyConverter.cs) (VB: [MyConverter.vb](./VB/ExportToDataTableWorkbookExample/MyConverter.vb))
-* [Program.cs](./CS/ExportToDataTableWorkbookExample/Program.cs) (VB: [Program.vb](./VB/ExportToDataTableWorkbookExample/Program.vb))
-<!-- default file list end -->
-# Spreadsheet Document API - Export a Worksheet Range to a DataTable
 
+## Documentation
 
-<p>This example illustrates the <a href="http://help.devexpress.com/#DocumentServer/CustomDocument118161">How to: Export a Worksheet Range to a DataTable</a> topic.</p>
-
-<br/>
+* [How to: Export a Worksheet Range to a DataTable](https://docs.devexpress.com/OfficeFileAPI/118161/spreadsheet-document-api/examples/import-and-export-data/how-to-export-a-worksheet-range-to-a-datatable)
 
 
