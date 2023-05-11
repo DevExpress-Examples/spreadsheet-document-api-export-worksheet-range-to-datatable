@@ -29,9 +29,7 @@
             Me.gridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
             Me.defaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
             Me.ribbonControl1 = New DevExpress.XtraBars.Ribbon.RibbonControl()
-            Me.skinRibbonGalleryBarItem1 = New DevExpress.XtraBars.SkinRibbonGalleryBarItem()
             Me.ribbonPage1 = New DevExpress.XtraBars.Ribbon.RibbonPage()
-            Me.rpgSkins = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
             Me.ribbonPageGroup1 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
             Me.barBtnExport = New DevExpress.XtraBars.BarButtonItem()
             CType(Me.gridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -57,7 +55,7 @@
             ' ribbonControl1
             ' 
             Me.ribbonControl1.ExpandCollapseItem.Id = 0
-            Me.ribbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() { Me.ribbonControl1.ExpandCollapseItem, Me.skinRibbonGalleryBarItem1, Me.barBtnExport})
+            Me.ribbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.ribbonControl1.ExpandCollapseItem, Me.barBtnExport})
             Me.ribbonControl1.Location = New System.Drawing.Point(0, 0)
             Me.ribbonControl1.MaxItemId = 3
             Me.ribbonControl1.Name = "ribbonControl1"
@@ -65,23 +63,11 @@
             Me.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013
             Me.ribbonControl1.Size = New System.Drawing.Size(905, 143)
             ' 
-            ' skinRibbonGalleryBarItem1
-            ' 
-            Me.skinRibbonGalleryBarItem1.Caption = "skinRibbonGalleryBarItem1"
-            Me.skinRibbonGalleryBarItem1.Id = 1
-            Me.skinRibbonGalleryBarItem1.Name = "skinRibbonGalleryBarItem1"
-            ' 
             ' ribbonPage1
             ' 
-            Me.ribbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.rpgSkins, Me.ribbonPageGroup1})
+            Me.ribbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.ribbonPageGroup1})
             Me.ribbonPage1.Name = "ribbonPage1"
             Me.ribbonPage1.Text = "Workbook to DataTable"
-            ' 
-            ' rpgSkins
-            ' 
-            Me.rpgSkins.ItemLinks.Add(Me.skinRibbonGalleryBarItem1)
-            Me.rpgSkins.Name = "rpgSkins"
-            Me.rpgSkins.Text = "Skins"
             ' 
             ' ribbonPageGroup1
             ' 
@@ -122,8 +108,6 @@
         Private defaultLookAndFeel1 As DevExpress.LookAndFeel.DefaultLookAndFeel
         Private ribbonControl1 As DevExpress.XtraBars.Ribbon.RibbonControl
         Private ribbonPage1 As DevExpress.XtraBars.Ribbon.RibbonPage
-        Private rpgSkins As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-        Private skinRibbonGalleryBarItem1 As DevExpress.XtraBars.SkinRibbonGalleryBarItem
         Private WithEvents barBtnExport As DevExpress.XtraBars.BarButtonItem
         Private ribbonPageGroup1 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     End Class
