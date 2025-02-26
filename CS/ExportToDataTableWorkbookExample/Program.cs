@@ -16,7 +16,6 @@ namespace ExportToDataTableWorkbookExample {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            BonusSkins.Register();
             SkinManager.EnableFormSkins();
             Application.Run(new Form1());
         }

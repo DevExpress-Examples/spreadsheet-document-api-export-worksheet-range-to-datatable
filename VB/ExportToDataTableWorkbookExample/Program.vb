@@ -20,7 +20,6 @@ Namespace ExportToDataTableWorkbookExample
             Application.EnableVisualStyles()
             Application.SetCompatibleTextRenderingDefault(False)
 
-            BonusSkins.Register()
             SkinManager.EnableFormSkins()
             Application.Run(New Form1())
         End Sub
